@@ -362,7 +362,10 @@ footer h3{
 }
 
 @media (max-width: 768px) {
+  .footer-contact{
+    width: 40%;
   
+}
   .hero{
     padding: 1em;
   }
