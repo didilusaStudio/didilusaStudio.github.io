@@ -211,13 +211,15 @@ footer h3{
   text-underline-offset: 0.5em;
 }
 .footer-contact{
-  width: 20%;
+  width: 100%;
+  align-items: center;
   gap:1em;
   margin: 1em 0;
 }
 .footer-icon {
-    width: 24px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
+    color: #E8DED6;
 }
 
 /*---------------------LA SECTION HERO-----------------*/
@@ -358,14 +360,15 @@ footer h3{
   .block-portfolio-img{
   gap: 1em;
 }
+.footer{
+  padding: 20px;
+}
+
  
 }
 
 @media (max-width: 768px) {
-  .footer-contact{
-    width: 40%;
-  
-}
+
   .hero{
     padding: 1em;
   }
