@@ -1,54 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="./src/style.css">
-    <title>Didi Lusa- creative studio</title>
+    <title>Didi Lusa - creative studio</title>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
-<body>
-     <header class="flex">
-     <a href="#" class="logo">Didi Lusa-Creative studio</a>
-     <button id="menu-btn">Menu</button>
-     <!-- <nav id="nav">
-        <ul class="primary-nav">
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">A propos</a></li>
-            <li><a href="#">Mes créations</a></li>
-            <li><a href="#">Mes services</a></li>
-            <li><a href="#contact">Me contecter</a></li>
 
-        </ul>
-     </nav> -->
+<body>
+    <header class="flex">
+        <a href="./index.html" class="logo">Didi Lusa-Creative studio</a>
+        <button id="menu-btn">Menu</button>
+        <nav id="nav">
+            <ul class="primary-nav">
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="portfolio.html">Mes créations</a></li>
+                <li><a href="#services">Mes services</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1 class="text-center">Studio créatif</h1> 
+                <h1 class="text-center">Studio créatif</h1>
                 <h2 class="text-center">Web design - création de contenu - identité visuelle</h2>
-                <p class="subtitle text-center">Je crée des sites web , du contenu, des 
-                    vidéos et des identités visuelles pour vous aider à exister en ligne 
+                <p class="subtitle text-center">Je crée des sites web , du contenu, des
+                    vidéos et des identités visuelles pour vous aider à exister en ligne
                     avec cohérence et authenticité.</p>
-                    <div class="block-center">
-                        <a href="#contact" class="btn">Me contacter</a>
-                         <!-- <a href="#about" class="btn-cta">Me contacter</a>  -->
-                    </div>
+                <div class="block-center">
+                    <a href="#portfolio" class="btn">Voir mes créations</a>
+                    <a href="#contact" class="btn-cta">Travaillons ensemble</a>
+                </div>
             </div>
+        </section>
+        <section class="services" id="services">
+            <h2>Services</h2>
+            <div class="services-content">
+                <div class="block-services">
+                    <h3>Identité visuelle</h3>
+                    <h4>Donnez à votre marque une image forte et cohérente.</h4>
+                    <p>Je crée votre logo, ses déclinaisons et une charte graphique complète : palette de couleurs,
+                        typographies,
+                        iconographie et règles d’utilisation pour une identité professionnelle et reconnaissable.</p>
+                </div>
+                <div class="block-services">
+                    <h3>Site web</h3>
+                    <h4>Un site web esthétique, fonctionnel et aligné avec votre identité</h4>
+                    <p>Je conçois votre design et l’adapte à tous les supports (ordinateur, tablette, smartphone).
+                        <br>Votre site est ensuite intégré sous WordPress pour une gestion simple et autonome.
+                    </p>
+                </div>
+                <div class="block-services">
+                    <h3>Création de contenu</h3>
+                    <h4>Des contenus qui racontent votre histoire et renforcent votre présence en ligne.</h4>
+                    <p>Je réalise des vidéos courtes, montages, animations simples (Motion Design et 2D), ainsi que la
+                        rédaction
+                        de vos textes : articles de blog, pages web, storytelling et scripts vidéo.</p>
+                </div>
+                <div class="block-services">
+                    <h3>Social Media</h3>
+                    <h4>Des visuels et textes pensés pour engager votre audience.</h4>
+                    <p>Je crée vos templates personnalisés, vos posts (visuels + légendes), stories, carrousels et
+                        covers de reels,
+                        avec recherche d’hashtags pertinents pour optimiser votre visibilité.</p>
+                </div>
+            </div>
+            <div class="block-center">
+                <a href="#" class="btn-primary">Voir mes offres</a>
+            </div>
+
+        </section>
+        <section class="portfolio" id="portfolio">
+            <h2>Mes créations</h2>
+            <div class="portfolio-carousel">
+                <div class="portfolio-content flex">
+                    <div class="block-portfolio">
+                        <div class="img-portfolio">
+                            <img src="./src/img/animation.jpg" alt="">
+                        </div>
+                        <div class="block-portfolio-txt">
+                            <p>Motion Design</p>
+                            <h3>Animation de formes</h3>
+                            <a href="./animation.html">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="block-portfolio">
+                        <div class="img-portfolio">
+                            <img src="./src/img/bckgHero.png" alt="">
+                        </div>
+                        <div class="block-portfolio-txt">
+                            <p>Identité visuelle</p>
+                            <h3>L'atelier de Géné</h3>
+                            <a href="./ateliergene.html">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="block-portfolio">
+                        <div class="img-portfolio">
+                            <img src="./src/img/bckgHero.png" alt="">
+                        </div>
+                        <div class="block-portfolio-txt">
+                            <p>Web Design</p>
+                            <h3>FondAD</h3>
+                            <a href="#">Voir plus</a>
+                        </div>
+                    </div>
+                    <div class="block-portfolio">
+                        <div class="img-portfolio">
+                            <img src="./src/img/bckgHero.png" alt="">
+                        </div>
+                        <div class="block-portfolio-txt">
+                            <p>Vidéo/Podcast</p>
+                            <h3>Titre de la création</h3>
+                            <a href="#">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev">‹</button>
+                <button class="next">›</button>
+
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2>Qui je suis </h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="./src/img/bckgHero.png" alt="">
+                </div>
+                <div class="about-txt">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eum ab nulla officia. Debitis quo, qui eveniet sequi molestiae pariatur deserunt sapiente
+                        laudantium
+                        quae accusamus maxime dolor repudiandae ad dicta ipsum rem architecto veritatis animi laborum
+                        facere soluta et nulla quibusdam.
+                        Totam, deleniti. Sunt alias numquam nemo aliquam accusamus! Error, autem!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita ullam, suscipit distinctio
+                        minima repellendus ut error molestias,
+                        eius quia mollitia pariatur perspiciatis quibusdam molestiae ducimus quasi iusto! Et, adipisci,
+                        officiis optio aut ipsam nesciunt omnis
+                        aspernatur placeat voluptatem odio quo cumque reiciendis ipsa quasi inventore porro dolorem
+                        distinctio nisi tenetur sit magnam, saepe
+                        nihil id! Est earum perferendis cumque provident.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita molestiae beatae sunt. Id
+                        sunt, magni ratione numquam culpa aut
+                        molestias beatae perspiciatis ullam natus? Ipsum consequuntur debitis aperiam ullam deleniti
+                        porro aliquid, est excepturi nisi
+                        perspiciatis blanditiis minus obcaecati itaque ex, sunt soluta tenetur vitae voluptas doloremque
+                        voluptatem id! Illo amet omnis sapiente fugit asperiores.</p>
+                </div>
+
+            </div>
+
         </section>
     </main>
     <footer id="contact">
-         <h3>Contact</h3>
-         <div class="footer-contact flex">
-            <img src="./src/img/mail.svg" alt="" class="footer-icon"> <p>: didi.lusak@gmail.com</p>
+        <h3>Contact</h3>
+        <div class="footer-contact">
+            <img src="./src/img/mail.svg" alt="" class="footer-icon">
+            <p>: didi.lusak@gmail.com</p>
         </div>
-        <div class="footer-contact flex">
-         <a href="#"><img src="./src/img/instagram.svg" alt="" class="footer-icon"></a> 
-         <a href="https://www.youtube.com/@Didislaraconte"><img src="./src/img/youtube.svg" alt="" class="footer-icon"></a> 
-        <a href="https://didislaraconte.wordpress.com/"><img src="./src/img/wordpress.svg" alt="" class="footer-icon"></a> 
-         <a href="https://github.com/didilusaStudio"><img src="./src/img/github.svg" alt="" class="footer-icon"></a>
+        <div class="footer-contact">
+            <a href="https://www.youtube.com/@Didislaraconte"><img src="./src/img/youtube.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://didislaraconte.wordpress.com/"><img src="./src/img/wordpress.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://www.instagram.com/didi_lusa/"><img src="./src/img/instagram.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://github.com/didilusaStudio"><img src="./src/img/github.svg" alt="" class="footer-icon"></a>
         </div>
+
     </footer>
+    <script src="./src/minimal.js"></script>
 </body>
-</html>
-</body>
+
 </html>
