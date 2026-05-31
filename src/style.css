@@ -149,8 +149,8 @@ a {
 
 .btn-primary {
   display: inline-block;
-  background-color: #F7F3EE;
-  color: #b96a5b;
+  background-color: #b96a5b;
+  color: #F7F3EE;
   padding: clamp(6px, 1.5vw, 12px) clamp(18px, 4vw, 32px);
   border: 2px solid #b96a5b;
   border-radius: 12px;
@@ -444,12 +444,25 @@ footer h3 {
   font-size: 0.9rem;
   margin: 1em 0;
 }
-
+.block-portfolio .h3_center{
+  position: absolute;
+  top: 30%;
+}
 
 .img-portfolio {
   width: fit-content;
   background: #E8DED6;
   border-radius: 12px;
+  position: relative;
+}
+.img-portfolio h3{
+  position: absolute;
+  font-size: 1.5rem;
+  padding: 0.5em 0;
+  text-align: center;
+  width: 100%;
+  top:40%;
+  background-color: #F7F3EE;
 }
 
 .img-portfolio img {
@@ -512,7 +525,6 @@ footer h3 {
   background: #E8DED6;
   padding: 0.5em;
   border-radius: 12px;
-  border: 1px solid blue;
 }
 
 .about-img img {
@@ -554,7 +566,6 @@ footer h3 {
   font-style: italic;
 }
 
-
 /*--------------IMAGES GRID-------*/
 .grid-images {
   width: 100%;
@@ -587,33 +598,12 @@ footer h3 {
 
 /*-------------Videos projet------------*/
 .block-video {
-  width: 70%;
   margin: 1.5em auto;
-  background: #E8DED6;
+  padding: 1em;
 }
-
 .block-video video {
   width: 100%;
   border-radius: 12px;
-}
-
-.video-projet {
-  margin: 1em 0;
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #F7F3EE;
-  border-right: 1px solid #E8DED6;
-  border-left: 1px solid #E8DED6;
-}
-
-.video-projet p {
-  width: 50%;
-}
-
-.video-projet video {
-  width: 40%;
 }
 
 
@@ -710,7 +700,9 @@ footer h3 {
   .block-portfolio {
     min-width: 100%;
   }
-
+  .img-portfolio h3{
+  font-size: 1.2rem;
+}
   /*----------------------SECTION ABOUT---------------------*/
   .about-content {
     width: 90%;
@@ -723,6 +715,10 @@ footer h3 {
   }
 
   /*-------------PAGE PROJETS-----------*/
+  .section-projet {
+    width: 90%;
+    padding: 2em 1em;
+  }
   .txt-projet {
     width: 100%;
   }
@@ -745,15 +741,7 @@ footer h3 {
     max-height: 330px;
   }
 
-  .video-projet {
-    flex-direction: column;
-    gap: 2em;
-  }
-
-  .video-projet p,
-  .video-projet video {
-    width: 100%;
-  }
+  
 
 
 
