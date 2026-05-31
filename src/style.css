@@ -531,37 +531,17 @@ footer h3 {
 
 /*------------------------PAGE PROJET---------------*/
 .section-projet {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  min-height: 90vh;
-
+  width: 75%;
+  margin: 0 auto;
+  padding: 1.5em 2em;
+  background-color: #ffffff;
 }
 
-.projet {
-  width: 90%;
-  flex: 1;
-  background-color: #E8DED6;
+.section-projet h1 {
+  margin: 0.5em 0;
 }
-
-.projet h1 {
-  margin: 1em 0;
-}
-
-.img-projet-logo {
-  width: 100%;
-  margin: 0.5em 0 1em;
-  background: #E8DED6;
-  padding: 0.5em;
-  border-radius: 12px;
-}
-
-.img-projet-logo img {
-  width: 100%;
-  border-radius: 12px;
-  max-height: 350px;
-  object-fit: cover;
+.section-projet p{
+  margin: 0.5em 0;
 }
 
 .brand-name {
@@ -574,15 +554,6 @@ footer h3 {
   font-style: italic;
 }
 
-.txt-projet {
-  width: 80%;
-  margin: 0.8em auto;
-  padding: 1em;
-}
-
-.txt-projet p {
-  margin: 0 auto 0.8em;
-}
 
 /*--------------IMAGES GRID-------*/
 .grid-images {
