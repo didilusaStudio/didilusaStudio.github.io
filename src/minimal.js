@@ -12,8 +12,8 @@ const nextBtn = document.querySelector('.next');
 const prevBtn = document.querySelector('.prev');
 
 if (track && nextBtn && prevBtn) {
-    nextBtn.onclick = () => track.scrollBy({ left: 350, behavior: 'smooth' });
-    prevBtn.onclick = () => track.scrollBy({ left: -350, behavior: 'smooth' });
+  nextBtn.onclick = () => track.scrollBy({ left: 350, behavior: 'smooth' });
+  prevBtn.onclick = () => track.scrollBy({ left: -350, behavior: 'smooth' });
 }
 
 
@@ -90,3 +90,6 @@ if (form) {
         }
     });
 }
+
+
+
