@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La machine graphique-Didi Lusa</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/machine.css">
+</head>
+
+<body>
+    <header class="flex">
+        <a href="index.html#portfolio" class="logo">Didi Lusa-Creative studio</a>
+        <button id="menu-btn">Menu</button>
+        <nav id="nav">
+            <ul class="primary-nav">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index.html#about">A propos</a></li>
+                <li><a href="portfolio.html">Mes créations</a></li>
+                <li><a href="index.html#services">Mes services</a></li>
+                <li><a href="#contact">Me contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section-projet">
+            <h1 class="text-center">La machine graphique</h1>
+            <p  class="text-center">La Machine Graphique est un test interactif que j’ai conçu pour révéler votre style créatif à travers 5 questions simples. <br>
+                L’objectif n’est pas de juger ton niveau, mais de révéler ton style naturel, celui qui ressort quand tu
+                choisis spontanément.
+            </p>
+        </section>
+        <section class="section-projet" id="section-jouer">
+            <h2 class="text-center">Mon profil artistique</h2>
+            <form id="creativeForm" class="test-form">
+
+                <div class="mb-3">
+                    <label class="form-label">Votre pseudo </label>
+                    <input type="text" name="pseudo" class="form-control" required>
+                </div>
+
+                <!-- SELECT1 -->
+                <div class="mb-3">
+                    <h2>PALETTE & COULEUR</h2>
+                    <label class="form-label">Quelle palette te parle le plus instinctivement ?</label>
+                    <select name="Q1" class="form-select" required>
+                        <option value="5">Noir, blanc, gris, tons neutres</option>
+                        <option value="10">Tons doux, pastels, nuances légères</option>
+                        <option value="15">Couleurs riches, contrastées mais équilibrées</option>
+                        <option value="20">Couleurs saturées, vives, inattendues</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <h2>COMPOSITION & STRUCTURE</h2>
+                    <label class="form-label">Quel type de composition t’attire le plus ? </label>
+                    <select name="Q2" class="form-select" required>
+                        <option value="5">Centrée, symétrique, très ordonnée</option>
+                        <option value="10">Équilibrée mais légèrement décentrée</option>
+                        <option value="15">Asymétrique, dynamique, avec du mouvement</option>
+                        <option value="20">Fragmentée, expérimentale, rupture volontaire</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <h2>TEXTURES & MATIÈRES</h2>
+                    <label class="form-label">Comment aimes‑tu utiliser les textures dans tes créations ? </label>
+                    <select name="Q3" class="form-select" required>
+                        <option value="5">Très discrètes, presque invisibles</option>
+                        <option value="10">Légères, pour ajouter un peu de douceur</option>
+                        <option value="15">Bien visibles, pour donner du caractère</option>
+                        <option value="20">Fortes et assumées, parfois brutes ou expérimentales</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <h2>FORMES & STYLE GRAPHIQUE</h2>
+                    <label class="form-label">Quel type de formes te correspond le plus ? </label>
+                    <select name="Q4" class="form-select" required>
+                        <option value="5">Géométriques, simples, nettes</option>
+                        <option value="10">Arrondies, organiques, fluides</option>
+                        <option value="15">Un mélange de formes libres et structurées</option>
+                        <option value="20">Formes irrégulières, abstraites, expressives</option>
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <h2>AMBIANCE & INTENTION CRÉATIVE</h2>
+                    <label class="form-label">Quelle ambiance cherches‑tu à transmettre dans tes créations ? </label>
+                    <select name="Q5" class="form-select" required>
+                        <option value="5">Calme, pure, minimaliste</option>
+                        <option value="10">Douce, chaleureuse, harmonieuse</option>
+                        <option value="15">Énergique, vivante, expressive</option>
+                        <option value="20">Intense, marquée, audacieuse</option>
+                    </select>
+                </div>
+                <button class="btn-primary" name="btnCalculer" type="submit">
+                    Valider mes réponses
+                </button>
+            </form>
+        </section>
+        <section class="section-projet" id="result">
+            
+        </section>
+    </main>
+    <footer id="contact">
+        <h3>Contact</h3>
+        <div class="footer-contact flex">
+            <img src="./src/img/mail.svg" alt="" class="footer-icon">
+            <p>: didi.lusak@gmail.com</p>
+        </div>
+        <div class="footer-contact flex">
+            <a href="https://www.instagram.com/didi_lusa/"><img src="./src/img/instagram.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://www.youtube.com/@Didislaraconte"><img src="./src/img/youtube.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://didislaraconte.wordpress.com/"><img src="./src/img/wordpress.svg" alt=""
+                    class="footer-icon"></a>
+            <a href="https://github.com/didilusaStudio"><img src="./src/img/github.svg" alt="" class="footer-icon"></a>
+        </div>
+
+    </footer>
+    <script src="./src/minimal.js"></script>
+
+</body>
+
+</html>
