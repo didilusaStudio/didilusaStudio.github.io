@@ -200,13 +200,13 @@ header {
 }
 
 #menu-btn {
-  background: none;
-  border: none;
-  font-size: 1.3rem;
+  background: #FAF6F0;
+  border: 1px solid #E0688D;
+  border-radius: 10px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #E0688D;
-  text-decoration: 3px #E0688D solid underline;
-  text-underline-offset: 0.5em;
+  padding: 5px 15px;
   cursor: pointer;
   right: 5%;
   position: fixed;
@@ -444,7 +444,8 @@ footer h3 {
   font-size: 0.9rem;
   margin: 1em 0;
 }
-.block-portfolio .h3_center{
+
+.block-portfolio .h3_center {
   position: absolute;
   top: 30%;
 }
@@ -455,13 +456,14 @@ footer h3 {
   border-radius: 12px;
   position: relative;
 }
-.img-portfolio h3{
+
+.img-portfolio h3 {
   position: absolute;
   font-size: 1.5rem;
   padding: 0.5em 0;
   text-align: center;
   width: 100%;
-  top:40%;
+  top: 40%;
   background-color: #F7F3EE;
 }
 
@@ -552,7 +554,8 @@ footer h3 {
 .section-projet h1 {
   margin: 0.5em 0;
 }
-.section-projet p{
+
+.section-projet p {
   margin: 0.5em 0;
 }
 
@@ -601,6 +604,7 @@ footer h3 {
   margin: 1.5em auto;
   padding: 1em;
 }
+
 .block-video video {
   width: 100%;
   border-radius: 12px;
@@ -700,9 +704,11 @@ footer h3 {
   .block-portfolio {
     min-width: 100%;
   }
-  .img-portfolio h3{
-  font-size: 1.2rem;
-}
+
+  .img-portfolio h3 {
+    font-size: 1.2rem;
+  }
+
   /*----------------------SECTION ABOUT---------------------*/
   .about-content {
     width: 90%;
@@ -719,6 +725,7 @@ footer h3 {
     width: 90%;
     padding: 2em 1em;
   }
+
   .txt-projet {
     width: 100%;
   }
@@ -741,7 +748,7 @@ footer h3 {
     max-height: 330px;
   }
 
-  
+
 
 
 
