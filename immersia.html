@@ -16,7 +16,7 @@
             <ul class="primary-nav">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="index.html#about">À propos</a></li>
-                <li><a href="portfolio.html">Mes créations</a></li>
+                <li id="active-link"><a href="portfolio.html">Mes créations</a></li>
                 <li><a href="index.html#services">Mes services</a></li>
                 <li><a href="#contact">Me contacter</a></li>
             </ul>
@@ -24,19 +24,33 @@
     </header>
     <main>
         <section class="section-projet">
-            <h1>Animation de formes</h1>
-            <h2>Vidéo/ Motion design</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                Accusantium modi delectus pariatur veritatis repellendus dolore alias velit sint nostrum quae?
+            <div class="img-projet">
+                <img src="./src/img/Immersia logo.png" alt="">
+            </div>
+            <p><span class="brand-name">Immersia Théâtre</span> est une compagnie qui crée des expériences scéniques où
+                le public ne se contente pas
+                d’assister à une pièce : il y plonge entièrement. <br>
+                Grâce au décor, à l’ambiance sonore, à la lumière et parfois même à l’interaction directe avec les
+                comédiens, chaque spectateur devient un véritable participant de l’histoire. <br>
+                L’objectif est simple : offrir une immersion totale, où la frontière entre scène et réalité s’efface
+                pour laisser place à une expérience théâtrale unique.
             </p>
-            <div class="block-video">
+            <p class="details">Logo /identité visuelle /Conception graphique /Motion Design </p>
+
+            
+            <!-- <div class="block-video">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br>
+                    Provident nostrum porro, a ab sequi aut rerum impedit quo aliquam minus reiciendis id ad nam
+                    numquam. <br> <br>
+                </p>
                 <video controls preload="metadata" poster="src/img/animation.jpg">
                     <source src="src/videos/animation.mp4" type="video/mp4">
                     Votre navigateur ne supporte pas la vidéo.
-            </div>
-            <div class="block-center">
-                <a href="index.html#portfolio" class="btn-primary">Plus de créations</a>
-            </div>
+
+            </div> -->
+
+             <div class="block-center">
+                <a href="./portfolio.html" class="btn-primary">Plus de créations</a>
             </div>
         </section>
     </main>
@@ -58,6 +72,7 @@
 
     </footer>
     <script src="./src/minimal.js"></script>
+
 </body>
 
 </html>
