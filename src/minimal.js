@@ -91,5 +91,30 @@ if (form) {
     });
 }
 
+//FILTRE PROJETS PAGE PORTFOLIO
+const filterButtons = document.querySelectorAll('.filter-btn');
+const projects = document.querySelectorAll('.port-link');
+
+filterButtons.forEach(btn => {
+    btn.addEventListener('click', e => {
+        e.preventDefault();
+
+        // Active button
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.getAttribute('data-filter');
+
+        projects.forEach(project => {
+            const categories = project.getAttribute('data-category').split(" ");
+
+            if (filter === "all" || categories.includes(filter)) {
+                project.style.display = "block";
+            } else {
+                project.style.display = "none";
+            }
+        });
+    });
+});
 
 

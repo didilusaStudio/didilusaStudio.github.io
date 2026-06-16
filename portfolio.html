@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Didi Lusa-Creative studio  /Mes créations</title>
+    <title>Didi Lusa-Creative studio /Mes créations</title>
     <link rel="stylesheet" href="./src/style.css">
 </head>
 
@@ -27,15 +27,15 @@
             <h1 class="text-center">Tous les projets</h1>
             <div class="menu-projet">
                 <ul>
-                    <li><a href="">Tous</a></li>
-                    <li><a href="">Identité visuelle</a></li>
-                    <li><a href="">Web Design</a></li>
-                    <li><a href="">Motion Design</a></li>
-                    <li><a href="">Social media</a></li>
+                    <li><a href="" class="filter-btn active" data-filter="all">Tous</a></li>
+                    <li><a href="" class="filter-btn" data-filter="identite">Identité visuelle</a></li>
+                    <li><a href="" class="filter-btn" data-filter="webdesign">Web Design</a></li>
+                    <li><a href="" class="filter-btn" data-filter="motion">Motion Design</a></li>
+                    <li><a href="" class="filter-btn" data-filter="social">Social media</a></li>
                 </ul>
             </div>
             <div class="projet-portfolio">
-                <a class="port-link" href="./animation.html#kinetic">
+                <a class="port-link" data-category="motion" href="./animation.html#kinetic">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/les eaux de mars.jpg" alt="Kinetic typography">
                         <h2>Les eaux de mars</h2>
@@ -43,42 +43,42 @@
                     </div>
                 </a>
 
-                <a class="port-link" href="./vacances.html">
+                <a class="port-link" data-category="identite" href="./vacances.html">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/vacances de rêve.png" alt="Vacances de rêves">
                         <h2>Vacances de rêve</h2>
                         <p>Identité visuelle / Conception graphique</p>
                     </div>
                 </a>
-                <a class="port-link" href="./machine_graphique.html">
+                <a class="port-link" data-category="webdesign" href="./machine_graphique.html">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/machine graphique.png" alt="machine graphique">
                         <h2>La machine graphique</h2>
                         <p>Web Dev / Web Design</p>
                     </div>
                 </a>
-                <a class="port-link" href="./immersia.html">
+                <a class="port-link" data-category="identite" href="./immersia.html">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/Immersia logo.png" alt="Immersia théâtre">
                         <h2>Immersia théâtre</h2>
                         <p>Identité visuelle / Conception graphique /Web Design</p>
                     </div>
                 </a>
-                <a class="port-link" href="./studio.html">
+                <a class="port-link" data-category="identite" href="./studio.html">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/img_didi lusa.png" alt="Didi Lusa creative Studio">
                         <h2>Didi Lusa Creative Studio</h2>
                         <p>Identité visuelle / Conception graphique</p>
                     </div>
                 </a>
-                <a class="port-link" href="./animation.html#animation">
+                <a class="port-link" data-category="motion" href="./animation.html#animation">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/animation.jpg" alt="Animation de formes">
                         <h2>Animations de formes</h2>
                         <p>Motion Design</p>
                     </div>
                 </a>
-                <a class="port-link" href="./animation.html#motion">
+                <a class="port-link" data-category="motion" href="./animation.html#motion">
                     <div class="projet-portfolio-content">
                         <img src="./src/img/portfolio.png" alt="Portfolio Motion Design">
                         <h2>Démo Motion Design</h2>
