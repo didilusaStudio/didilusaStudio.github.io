@@ -620,12 +620,14 @@ footer h3 {
 }
 
 .menu-projet ul li a {
-  padding: 0.5em 0.9em;
-  border: 2px solid var(--cuivre);
-  border-radius: 12px;
+  padding: 0.5em 0;
+  border-bottom: 2px solid var(--cuivre);
+  
 }
 .menu-projet ul li a.active{
-  border: 2px solid var(--rose);
+  border-bottom: 2px solid var(--rose);
+  color: var(--rose);
+  
 }
 
 
